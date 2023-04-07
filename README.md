@@ -17,3 +17,6 @@ The `main()` method uses Spring Boot's `SpringApplication.run()` method to launc
 ## [Record](https://docs.oracle.com/en/java/javase/14/language/records.html)
 
 JDK 14 introduces records, which are a new kind of type declaration. Like an enum, a record is a restricted form of a class. It's ideal for "plain data carriers". classes that contain data not meant to be altered and only the most fundamental methods such as constructors and accessors.
+
+## Jackson
+This simple Java record class is annotated with `@JsonIgnoreProperties` from the Jackson JSON processing library to indicate that any properties not bound in this type should be ignored.
