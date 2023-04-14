@@ -20,3 +20,10 @@ JDK 14 introduces records, which are a new kind of type declaration. Like an enu
 
 ## Jackson
 This simple Java record class is annotated with `@JsonIgnoreProperties` from the Jackson JSON processing library to indicate that any properties not bound in this type should be ignored.
+
+## References
+- [Accessing JPA Data with REST](https://spring.io/guides/gs/accessing-data-rest/)
+- [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+- [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)
+- [Accessing Data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
+
